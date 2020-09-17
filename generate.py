@@ -3,7 +3,6 @@ import json
 import pytz
 import urllib3
 from datetime import datetime
-pytz.timezone('Asia/Shanghai')
 
 articlesUrl = 'https://taketoday.cn/api/articles/popular'
 
@@ -25,7 +24,7 @@ def addProjectStats(file):
 </p>
 
 > '''
-    text += datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    text += datetime.now(pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
     file.write(text)
 
 
