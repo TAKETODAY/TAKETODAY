@@ -8,13 +8,13 @@ on: # 触发时机
   push:
     branches: [ master ]  # master有更新
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 */6 * * *'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest   # 使用最新版ubuntu镜像 
+    runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -28,19 +28,16 @@ jobs:
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
       - name: Install Python dependencies
-        run: python -m pip install urllib3
+        run: python -m pip install urllib3 pytz
 
       - name: Run python
         run: python generate.py
-
-      - name: Record time
-        run: echo `date` > lastModify
 
       - name: Commit and push if changed   #更新
         run: |
           git diff
           git config --global user.email "22285922280@qq.com"
-          git config --global user.name "TODAY"
+          git config --global user.name "TAKETODAY"
           git add -A
           git commit -m ":memo: 更新README" || exit
           git push
