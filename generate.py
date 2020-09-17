@@ -1,7 +1,9 @@
 ﻿# -*- coding: utf-8 -*-
 import json
+import pytz
 import urllib3
 from datetime import datetime
+pytz.timezone('Asia/Shanghai')
 
 articlesUrl = 'https://taketoday.cn/api/articles/popular'
 
