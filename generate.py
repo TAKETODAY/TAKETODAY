@@ -25,6 +25,12 @@ def addProjectStats(file):
 
 > '''
     text += datetime.now(pytz.timezone('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
+    text += '''
+    
+<a title="Hits" target="_blank" href="https://github.com/TAKETODAY/TAKETODAY">
+    <img src="https://hits.b3log.org/TAKETODAY/TAKETODAY.svg">
+</a>
+'''
     file.write(text)
 
 
