@@ -4,7 +4,7 @@ import pytz
 import urllib3
 from datetime import datetime
 
-articlesUrl = 'https://taketoday.cn/api/articles/popular'
+articlesUrl = 'https://taketoday.cn/api/articles?size=8'
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) GitHubREADME/85.0.4183.102 Safari/537.36'
