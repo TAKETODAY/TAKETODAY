@@ -39,7 +39,8 @@ def addBlog(file):
     response = http.request('GET', articlesUrl)
     file.write("\n### 我的博客\n")
 
-    articles = json.loads(response.data)
+    res = json.loads(response.data)
+    articles = res['data']
 
     for article in articles:
         file.write(
