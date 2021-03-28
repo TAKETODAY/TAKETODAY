@@ -18,7 +18,7 @@ def addIntro(file):
 
 def addProjectStats(file):
     text = '''
-### GitHub统计
+### GitHub 统计
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=TAKETODAY"/>
 </p>
