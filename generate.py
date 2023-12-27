@@ -44,7 +44,7 @@ def addBlog(file):
 
     for article in articles:
         file.write(
-            '- [%s](https://taketoday.cn/articles/%s)\n' % (article['title'], article['id'])
+            '- [%s](https://taketoday.cn/articles/%s)\n' % (article['title'], article['uri'])
         )
 
     file.write('\n[查看更多](https://taketoday.cn)\n')
