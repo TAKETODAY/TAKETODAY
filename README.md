@@ -2,6 +2,7 @@
 <td valign="top" width="50%">
 
 ### 我的博客
+- [2024简短总结](https://taketoday.cn/articles/2024-year-end-summary)
 - [使用 Systemd 管理 Java 进程](https://taketoday.cn/articles/using-systemd-to-manage-Java-processes)
 - [Linux 一键安装 MySQL 8.4](https://taketoday.cn/articles/install-linux-mysql-8.4-in-one-click)
 - [发布 JS 库到 npm 仓库](https://taketoday.cn/articles/publish-packages-to-npmjs)
@@ -9,7 +10,6 @@
 - [Gradle 多模块项目发布 Jar 包到 Maven 仓库](https://taketoday.cn/articles/gradle-multi-module-projects-publish-packages-to-maven)
 - [动态代理底层原理（Java）](https://taketoday.cn/articles/java-dynamic-proxy-underlying-principles)
 - [Java 注解底层原理](https://taketoday.cn/articles/the-underlying-principles-of-java-annotations)
-- [TODAY Context 之 BeanPropertyAccessor](https://taketoday.cn/articles/1616819014712)
 
 [查看更多](https://taketoday.cn)
 
@@ -21,7 +21,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=TAKETODAY"/>
 </p>
 
-> 2025-01-01 20:30:22
+> 2025-01-02 02:20:14
     
 <a title="Hits" target="_blank" href="https://github.com/TAKETODAY/TAKETODAY">
     <img src="https://hits.b3log.org/TAKETODAY/TAKETODAY.svg">
