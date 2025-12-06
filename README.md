@@ -18,10 +18,10 @@
 
 ### GitHub 统计
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TAKETODAY" alt="github-readme-stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=TAKETODAY"/>
 </p>
 
-> 2025-12-06 09:22:27
+> 2025-12-06 11:26:37
     
 <a title="Hits" target="_blank" href="https://github.com/TAKETODAY/TAKETODAY">
     <img src="https://hits.b3log.org/TAKETODAY/TAKETODAY.svg">
