@@ -20,7 +20,7 @@ def addProjectStats(file):
     text = '''
 ### GitHub 统计
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TAKETODAY"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=TAKETODAY" alt="github-readme-stats"/>
 </p>
 
 > '''
