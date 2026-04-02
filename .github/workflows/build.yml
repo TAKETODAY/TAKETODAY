@@ -37,6 +37,7 @@ jobs:
         run: |
           git diff
           git config --global user.email "i.take.today@gmail.com" && git config --global user.name "Harry Yang"
+          git pull
           git add -A
           git commit -m ":memo: 更新README" || exit
           git push
