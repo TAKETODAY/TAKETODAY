@@ -2,6 +2,7 @@
 <td valign="top" width="50%">
 
 ### 我的博客
+- [发版总超时后，我写了个通用的 Maven Central 发布插件](https://taketoday.cn/articles/maven-central-publishing-gradle-plugin)
 - [从 Netty 到 MVC：TODAY Infrastructure 如何处理一个 HTTP 请求](https://taketoday.cn/articles/today-infrastructure-netty-to-mvc)
 - [2024简短总结](https://taketoday.cn/articles/2024-year-end-summary)
 - [使用 Systemd 管理 Java 进程](https://taketoday.cn/articles/using-systemd-to-manage-Java-processes)
@@ -9,7 +10,6 @@
 - [发布 JS 库到 npm 仓库](https://taketoday.cn/articles/publish-packages-to-npmjs)
 - [RESTful Web API 设计与实践](https://taketoday.cn/articles/restful-web-api-design-and-practice)
 - [Gradle 多模块项目发布 Jar 包到 Maven 仓库](https://taketoday.cn/articles/gradle-multi-module-projects-publish-packages-to-maven)
-- [动态代理底层原理（Java）](https://taketoday.cn/articles/java-dynamic-proxy-underlying-principles)
 
 [查看更多](https://taketoday.cn)
 
@@ -21,7 +21,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=TAKETODAY" alt="github-readme-stats"/>
 </p>
 
-> 2026-10-18 11:06:33
+> 2026-10-18 18:25:47
     
 <a title="Hits" target="_blank" href="https://github.com/TAKETODAY/TAKETODAY">
     <img src="https://hits.b3log.org/TAKETODAY/TAKETODAY.svg">
