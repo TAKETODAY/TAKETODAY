@@ -10,7 +10,6 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) GitHubREADME/85.0.4183.102 Safari/537.36'
 }
 
-
 def addIntro(file):
     ret = ''''''
     file.write(ret)
